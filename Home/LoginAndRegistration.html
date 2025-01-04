@@ -1,0 +1,300 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Harvest Meta :: Home</title>
+    <link rel="icon" href="/Content/Front/assets/images/fav.png" type="image/gif" sizes="20x20">
+
+    <link rel="stylesheet" href="/Content/Front/assets/css/all.css">
+
+    <link rel="stylesheet" href="/Content/Front/assets/font/flaticon.css">
+
+    <link rel="stylesheet" href="/Content/Front/assets/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="/Content/Front/assets/css/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="/Content/Front/assets/css/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="/Content/Front/assets/css/slick.css">
+
+    <link rel="stylesheet" href="/Content/Front/assets/css/swiper.css">
+
+    <link rel="stylesheet" href="/Content/Front/assets/css/price-range-ui.css">
+
+    <link rel="stylesheet" href="/Content/Front/assets/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="/Content/Front/assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/Content/Front/assets/css/animate.css">
+
+    <link rel="stylesheet" href="/Content/Front/assets/css/style.css">
+
+    <link rel="stylesheet" href="/Content/Front/assets/css/responsive.css">
+
+    
+    <link href="/Scripts/Modal/snackbarToaster/s-snackbar.css" rel="stylesheet" />
+    <link href="/Scripts/Modal/CuteStyle.css" rel="stylesheet" />
+
+	
+	
+</head>
+
+
+
+<body>
+
+    <a href="#" id="scroll-top" class="back-to-top-btn"><i class="fas fa-chevron-up"></i></a>
+
+    <header>
+
+        <nav>
+            <div class="header-menu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-sm-6 col-6">
+                            <div class="logo text-left">
+                                <a href="/Home/Index"><img src="/Content/Front/assets/images/logo.png" alt></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-7 col-sm-6 col-6">
+                            <a href="javascript:void(0)" class="hidden-lg hamburger">
+                                <span class="h-top"></span>
+                                <span class="h-middle"></span>
+                                <span class="h-bottom"></span>
+                            </a>
+                            <nav class="main-nav">
+                                <div class="logo mobile-ham-logo d-lg-none d-block text-left">
+                                    <a href="/Home/Index"><img src="/Content/Front/assets/images/logo.png" alt></a>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="/Home/Index" class="active">Home</a>
+                                    </li>
+
+                                    <li></li>
+                                    <a href="/Home/Index#about">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="/Home/Index#service">Services</a>
+                                    </li>
+
+                                    <!-- <li><a href="/Content/Front/assets/images/Metazo.pdf" target="_blank">Business Plan</a></li> -->
+                                    <li><a href="/Home/Index#why">Why Harvest Meta</a></li>
+                                    <!-- <li><a href="/Home/UserLogIn">Login</a></li>
+                                    <li><a href="/Home/Registration">Register</a></li> -->
+                                </ul>
+
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        
+
+
+<style>
+    .fs-12 {
+        font-size: 12px !important
+    }
+</style>
+
+
+	
+
+<div class="breadcrumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="breadcrumb-content text-center">
+                    <h1>Login / Register</h1>
+                    <p><a href="/Home/Index">Home</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</header>
+
+
+<div class="login-wrap mt-100 mb-76">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                <section class="logreg_main">
+                    <p class="text-center mt-3" id="walletAddrDiv" style="display:none"><span class="text-warning"> Connected Wallet : </span> <span class="fs-12" id="WalletAddr"></span> </p>
+                    <div class="row mt-3 text-center fs-16" id="walletBalanceData">
+                        
+
+                        <div class="col-md-12 text-white">
+                            <p>
+                                <span id="CryptoCurrency">POL</span>  : <span class="text-success" id="Netivtokenbalance">0.00</span>
+                                ($ <span class="text-danger" id="NetivtokenbalanceINUSD">0.00</span>)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form_wrapper" id="LandR" style="display:none">
+                        <input type="radio" class="radio" name="radio" id="login" checked />
+                        <input type="radio" class="radio" name="radio" id="signup" />
+                        <div class="tile">
+                            <img src="/Content/Front/assets/images/logo.png" alt="" width="130px">
+
+                        </div>
+
+
+                        <label class="tab login_tab " for="login">
+                            Login
+                        </label>
+
+                        <label class="tab signup_tab " for="signup">
+                            Register
+                        </label>
+                        <span class="shape"></span>
+                        <div class="form_wrap ">
+                            <div class="form_fild login_form">
+
+                                <p class="text-center">Kindly Use Token Pocket Wallet or Metamask Wallet for best Experience</p>
+
+
+                                <button type="button" style="display:none" class="btn" id="LoginBtn"> Automatic Login </button>
+
+
+
+                            </div>
+
+                            <div class="form_fild signup_form">
+                                <div id="RegDiv" style="display:none">
+
+                                    <label>Sponser Address</label>
+                                    <div class="input_group">
+                                        <input type="text" id="sp_user" class="input" placeholder="Referral Code" />
+                                    </div>
+
+
+                                    <button type="button" id="RegisterUser" class="btn">Register</button>
+                                    <p class="text-center">Kindly Use Token Pocket Wallet or Metamask Wallet for best Experience</p>
+                                </div>
+                                <div id="ApproveDiv">
+
+                                    <p class="text-center">Approve Amount to Move Forward !!!</p>
+
+                                    <button type="button" id="tknapprove" class="btn">Approve</button>
+                                    <p class="text-center">Kindly Use Token Pocket Wallet or Metamask Wallet for best Experience</p>
+                                </div>
+                                <div id="RegDoneDiv">
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <button type="button" class="btn btn-warning" style="width:100%;" id="connectBtn" onclick="ConnectWallet();"> Connect Wallet</button>
+
+
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="/Scripts/jquery-3.4.1.min.js"></script>
+
+
+
+
+        <!-- Footer Start -->
+        <div class="footer-area design-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-sm-12 col-12">
+                        <div class="footer-wrap">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                    <div class="single-widget">
+                                        <div class="footer-logo text-center">
+                                            <a href="index.asp"><img src="/Content/Front/assets/images/logo.png" alt></a>
+                                            <p>
+                                                Harvest Meta is One Of the most promising coin For future and  Pol(Matic) is One the most
+                                                robust and Powerful Blockcahin Ever created, Which Makes it the most preferred
+                                                coin for Crowd funding Program
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="copy-right-area text-center">
+                            <p class="copy-text">© 2024 Harvest Meta, All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+
+<script src="/Scripts/Crypto/Common/ConAbi.js"></script>
+<script type="module" src="/Scripts/Crypto/Common/Modal3Web.js"></script>
+<script type="module" src="/Scripts/Crypto/Common/CommonFunctions.js"></script>
+<script src="/Scripts/Modal/cute-alert.js"></script>
+<script src="/Scripts/Modal/snackbarToaster/js-snackbar.js"></script>
+
+    <script type="module" src="/Scripts/Crypto/Common/CommonContract1Functions.js"></script>
+    <script src="/Scripts/Crypto/Home/Ln.js"></script>
+    <script src="/Scripts/Crypto/Home/Register.js"></script>
+
+    <script>window.PageName = "LoginAndRegistration";</script>
+
+
+        <script src="/Content/Front/assets/js/jquery-1.12.4.min.js"></script>
+
+        <script src="/Content/Front/assets/js/bootstrap.min.js"></script>
+
+        <script src="/Content/Front/assets/js/jquery.magnific-popup.min.js"></script>
+
+        <script src="/Content/Front/assets/js/owl.carousel.min.js"></script>
+
+        <script src="/Content/Front/assets/js/slick.min.js"></script>
+
+        <script src="/Content/Front/assets/js/swiper.js"></script>
+
+        <script src="/Content/Front/assets/js/jquery.mixitup.min.js"></script>
+
+        <script src="/Content/Front/assets/js/wow.min.js"></script>
+
+        <script src="/Content/Front/assets/js/price-range-ui.js"></script>
+
+        <script src="/Content/Front/assets/js/jquery.counterup.min.js"></script>
+        <script src="/Content/Front/assets/js/counter-potnt.js"></script>
+
+        <script src="/Content/Front/assets/js/main.js"></script>
+ 
+
+</body>
+
+</html>
